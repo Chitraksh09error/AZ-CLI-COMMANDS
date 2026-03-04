@@ -32,5 +32,7 @@ az vm create -n name -g ResourceGroupName --image Ubuntu2204 --vnet-name vname -
 ```
 ```bash
 az vm start
+```
+```bash
 az vm stop
 ```
