@@ -1,6 +1,6 @@
 # AZ-CLI-COMMANDS
 This repo contains basic commands which are needed in Azure to create resources
-click on this link to know more `https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest`
+click on this link to know more https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest
 
 ##  Login
 ```bash
