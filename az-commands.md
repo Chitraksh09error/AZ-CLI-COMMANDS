@@ -40,10 +40,13 @@ az vm start
 az vm stop
 ```
 
-## Create Storage Account / Check whether name already exists 
+## Create Storage Account / Check whether name already exists / Update storage account
 ```bash
 az storage account create --name uniquename --resource-group GroupName --location eastus --sku Standard_GRS --kind StorageV2 --allow-blob-public-access false/true
 ```
 ```bash
 az storage account check-name --name name
+```
+```bash
+az storage account update
 ```
