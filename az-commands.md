@@ -16,3 +16,21 @@ az login --use-device-code
 az group create -l regionName -n nameOfResourceGroup
 ```
 
+## Resource Group list
+```bash
+az group list
+```
+
+## Group Exists
+```bash
+az group exists -n nameOfGroup
+```
+
+## Create a Virtual Machine / start VM / stop VM
+```bash
+az vm create -n name -g ResourceGroupName --image Ubuntu2204 --vnet-name vname --subnet name --generate-ssh-keys --output json --verbose
+```
+```bash
+az vm start
+az vm stop
+```
