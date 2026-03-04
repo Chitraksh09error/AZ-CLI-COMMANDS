@@ -11,10 +11,12 @@ az login
 az login --use-device-code
 ```
 
-## Create resource group
+## Create resource group / Delete resource group
 ```bash
 az group create -l regionName -n nameOfResourceGroup
 ```
+```bash
+az group delete --name ResourceGroupName
 
 ## Resource Group list
 ```bash
