@@ -17,6 +17,7 @@ az group create -l regionName -n nameOfResourceGroup
 ```
 ```bash
 az group delete --name ResourceGroupName
+```
 
 ## Resource Group list
 ```bash
