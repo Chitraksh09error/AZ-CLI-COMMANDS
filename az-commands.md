@@ -39,3 +39,8 @@ az vm start
 ```bash
 az vm stop
 ```
+
+## Create Storage Account 
+```bash
+az storage account create --name uniquename --resource-group GroupName --location eastus --sku Standard_GRS --kind StorageV2 --allow-blob-public-access false/true
+```
