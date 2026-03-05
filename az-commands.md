@@ -1,6 +1,7 @@
 # AZ-CLI-COMMANDS
 This repo contains basic commands which are needed in Azure to create resources
 click on this link to know more https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest
+click on this link for ARM snippits https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-visual-studio-code?tabs=CLI
 
 ##  Login
 ```bash
