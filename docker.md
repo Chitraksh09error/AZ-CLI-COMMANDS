@@ -14,3 +14,20 @@ docker images
 ```bash
 docker run -it -d -p localport:containerport ImageName
 ```
+## To See containers
+```bash
+docker ps
+```
+## To connect with DOCKER HUB
+```bash
+docker login
+```
+
+## To create a tag of Local image
+```bash
+docker tag socials accountName/image name
+```
+## To push image on Docker Hub
+```bash
+docker push taggedImagename
+```
