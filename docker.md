@@ -10,7 +10,7 @@ docker build -t nameofimage .
 docker images
 ```
 
-## Running Docker Images
+## Running Docker Image (container creation)
 ```bash
 docker run -it -d -p localport:containerport ImageName
 ```
