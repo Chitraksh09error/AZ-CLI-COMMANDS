@@ -45,9 +45,18 @@ az vm stop
 ```bash
 az storage account create --name uniquename --resource-group GroupName --location eastus --sku Standard_GRS --kind StorageV2 --allow-blob-public-access false/true
 ```
-```bash
+
+```bash  
 az storage account check-name --name name
 ```
 ```bash
 az storage account update
 ```
+## ARM CLI group creation / Deployment of JSON 
+```bash
+az group create --name arm-vscode --location eastus
+```
+```bash
+az deployment group create --resource-group arm-vscode --template-file azuredeploy.json
+```
+
